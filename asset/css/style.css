@@ -58,7 +58,8 @@ body {
 
         }
 
-        #community {
+        #community,
+        #technology {
             background-color: var(--ds-bg-light);
 
         }
@@ -69,6 +70,10 @@ body {
 
         .text {
             background-color: var(--ds-bg-text);
+        }
+
+        .tech_box {
+            background-color: var(--ds-bg-article);
         }
     }
 }
@@ -136,4 +141,15 @@ header {
 
 #community>.pgb-text_img {
     flex-direction: row-reverse;
+}
+
+#technology {
+    min-height: 500px;
+    padding-top: 1.5rem;
+}
+
+.tech_box {
+    min-height: 450px;
+    width: 80%;
+    margin: auto;
 }
