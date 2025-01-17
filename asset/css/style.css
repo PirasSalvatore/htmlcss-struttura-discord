@@ -51,6 +51,19 @@ body {
                 background-color: var(--ds-bg-bjumbo);
             }
         }
+
+        #invite_only {
+            background-color: var(--ds-bg-lighter);
+
+        }
+
+        .box-img {
+            background-color: var(--ds-bg-img);
+        }
+
+        .text {
+            background-color: var(--ds-bg-text);
+        }
     }
 }
 
@@ -98,4 +111,19 @@ header {
     min-height: 150px;
     width: 50%;
     margin: auto;
+}
+
+.pgb-text_img {
+    min-height: 300px;
+    justify-content: space-between;
+    padding: 2rem;
+
+    .box-img {
+        flex-grow: 2;
+    }
+
+    .text {
+        flex-grow: 1;
+    }
+
 }
