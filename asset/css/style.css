@@ -75,8 +75,23 @@ body {
         .tech_box {
             background-color: var(--ds-bg-article);
         }
+
+        #extra_link {
+
+            .external_link {
+                border-style: dotted;
+                background-color: var(--ds-bg-ext-link);
+            }
+
+            .internal_link {
+                border-style: dotted;
+                background-color: var(--ds-bg-extra-content);
+            }
+        }
+
     }
 
+    main>#extra_link,
     footer {
         background-color: var(--ds-bg-footer);
     }
@@ -158,9 +173,27 @@ header {
     margin: auto;
 }
 
+.el-box {
+    min-height: 320px;
+    justify-content: space-between;
+
+    padding-top: 0.5rem;
+    padding-bottom: 1rem;
+    margin-bottom: 0.1rem;
+
+
+    .external_link {
+        flex-grow: 2;
+    }
+
+    .internal_link {
+        flex-grow: 1;
+    }
+}
+
+
+
+
 #footer {
     min-height: 10%;
-    flex-direction: column;
-    gap: 1rem;
-
 }
