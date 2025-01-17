@@ -3,3 +3,75 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+:root {
+    --ds-bg-header: #add8e6;
+    --ds-bg-hmenu: #daa520;
+    --ds-bg-jumbo: #00008b;
+    --ds-bg-bjumbo: #ee82ee;
+    --ds-bg-lighter: #ffffff;
+    --ds-bg-light: #d3d3d3;
+    --ds-bg-img: #1e90ff;
+    --ds-bg-text: #ffc0cb;
+    --ds-bg-article: #228b22;
+    --ds-bg-footer: #23272a;
+    --ds-bg-ext-link: #f08080;
+    --ds-bg-extra-content: #20b2aa;
+    --ds-bg-fmenu: #7fffd4;
+    --ds-bg-fsqare: #ffb6c1;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+.debug {
+
+    header {
+        background-color: var(--ds-bg-header);
+
+        nav {
+            background-color: var(--ds-bg-hmenu);
+
+            a {
+                text-decoration: none;
+                color: black;
+            }
+        }
+
+    }
+
+
+}
+
+/* Utility */
+
+.flex-container {
+    display: flex;
+}
+
+.center {
+    width: 80%;
+    margin: auto;
+}
+
+.unstyle {
+    list-style: none;
+}
+
+/* header */
+
+header {
+    height: 5%;
+}
+
+.nmenu {
+    justify-content: space-between;
+}
+
+.link-menu {
+    li {
+        margin: 0.2rem;
+    }
+}
