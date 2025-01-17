@@ -52,8 +52,14 @@ body {
             }
         }
 
-        #invite_only {
+        #invite_only,
+        #fandom {
             background-color: var(--ds-bg-lighter);
+
+        }
+
+        #community {
+            background-color: var(--ds-bg-light);
 
         }
 
@@ -126,4 +132,8 @@ header {
         flex-grow: 1;
     }
 
+}
+
+#community>.pgb-text_img {
+    flex-direction: row-reverse;
 }
