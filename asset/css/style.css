@@ -46,6 +46,10 @@ body {
 
         #jumbotron {
             background-color: var(--ds-bg-jumbo);
+
+            #jumbox {
+                background-color: var(--ds-bg-bjumbo);
+            }
         }
     }
 }
@@ -86,6 +90,12 @@ header {
 /*main*/
 
 #jumbotron {
-    min-height: 500px;
+    min-height: 200px;
+    padding-top: 1.5rem;
+}
 
+#jumbox {
+    min-height: 150px;
+    width: 50%;
+    margin: auto;
 }
