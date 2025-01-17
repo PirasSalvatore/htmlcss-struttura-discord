@@ -95,6 +95,14 @@ body {
     footer {
         background-color: var(--ds-bg-footer);
     }
+
+    footer {
+
+        .fmenu {
+            background-color: var(--ds-bg-fmenu);
+        }
+
+    }
 }
 
 /* Utility */
@@ -191,9 +199,13 @@ header {
     }
 }
 
-
-
-
-#footer {
+footer {
     min-height: 10%;
+    padding-top: 1rem;
+}
+
+
+.fmenu {
+    justify-content: space-between;
+
 }
